@@ -1,9 +1,9 @@
 name: Update Subscription
- 
+
 on:
   schedule:
-    - cron: "0 * * * *"   # اجرای خودکار هر ۱ ساعت
-  workflow_dispatch:       # امکان اجرای دستی
+    - cron: "*/10 * * * *"   # اجرای خودکار هر ۳۰ دقیقه
+  workflow_dispatch:         # امکان اجرای دستی
 
 jobs:
   build:
