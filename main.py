@@ -1,6 +1,5 @@
 import requests
 import base64
-from datetime import datetime
 import jdatetime
 
 # فایل ورودی لیست لینک‌ها
@@ -36,11 +35,17 @@ with open("output.txt", "w", encoding="utf-8") as f:
 # ساخت فایل index.html برای GitHub Pages
 html_content = f"""
 <html>
-<head><meta charset="utf-8"><title>سرورها</title></head>
-<body>
-<h2>آخرین {len(unique_configs)} سرور جمع‌آوری‌شده</h2>
-<p>بروزرسانی: {now} به وقت تهران</p>
-<textarea style="width:100%;height:400px;">{"\n".join(unique_configs)}</textarea>
+<head>
+  <meta charset="utf-8">
+  <title>سرورهای V2Ray</title>
+</head>
+<body style="font-family:tahoma;direction:rtl;margin:20px;">
+  <h2>آخرین بروزرسانی</h2>
+  <p>📅 {now} به وقت تهران</p>
+  <p>🔗 تعداد سرورها: {len(unique_configs)}</p>
+  <p><a href="output.txt" download>دانلود فایل کامل (output.txt)</a></p>
+  <hr>
+  <textarea style="width:100%;height:400px;">{"\n".join(unique_configs)}</textarea>
 </body>
 </html>
 """
