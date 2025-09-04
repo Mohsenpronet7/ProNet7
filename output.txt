@@ -778,7 +778,7 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
-chacha20-ietf-poly1305:76c3dad6-ef3f-4779-be42-f609115a4e997mM6tӝڶrߊ
+chacha20-ietf-poly1305:cb72e7d0-edf1-4b2a-92d8-f28b62f382d05׮zMj'~(,%chacha20-ietf-poly1305:76c3dad6-ef3f-4779-be42-f609115a4e997mM6tӝڶrߊ
 )lXL
 ZY]\
 LL
