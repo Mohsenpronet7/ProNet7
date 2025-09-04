@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # دسترسی برای push کردن به ریپو
+
     steps:
       # گرفتن سورس کد
       - uses: actions/checkout@v3
@@ -24,7 +27,7 @@ jobs:
       # اجرای اسکریپت اصلی
       - run: python main.py
 
-     # Commit و Push خروجی‌ها
+      # Commit و Push خروجی‌ها
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions"
@@ -32,5 +35,3 @@ jobs:
           git add output.txt index.html
           git commit -m "Auto update subscription" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
