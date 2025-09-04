@@ -1,99 +1,49 @@
-import base64
 import requests
-import socket
-import jdatetime
-import pytz
+import base64
 from datetime import datetime
+import jdatetime
 
-# فایل منابع لینک‌ها
-with open("sources.txt") as f:
-    sources = [line.strip() for line in f if line.strip()]
+# فایل ورودی لیست لینک‌ها
+with open("sources.txt", "r") as f:
+    urls = [line.strip() for line in f if line.strip()]
 
-all_nodes = set()
+all_configs = []
 
-def fetch_and_decode(url):
+for url in urls:
     try:
-        resp = requests.get(url, timeout=15)
-        data = base64.b64decode(resp.text.strip()).decode(errors="ignore")
-        return [line.strip() for line in data.splitlines() if line.strip()]
+        res = requests.get(url, timeout=20)
+        if res.status_code == 200:
+            decoded = base64.b64decode(res.text).decode("utf-8", errors="ignore")
+            configs = [line.strip() for line in decoded.splitlines() if line.strip()]
+            all_configs.extend(configs)
     except Exception as e:
-        print(f"[!] Error fetching {url}: {e}")
-        return []
+        print(f"خطا در دریافت {url}: {e}")
 
-# تست سلامت (ping ساده با TCP)
-def is_alive(node):
-    try:
-        if node.startswith("vmess://"):
-            payload = base64.b64decode(node.replace("vmess://", "")).decode(errors="ignore")
-            import json
-            info = json.loads(payload)
-            host, port = info.get("add"), int(info.get("port", 443))
-        elif node.startswith("ss://") or node.startswith("trojan://"):
-            rest = node.split("@")[1]
-            host, port = rest.split(":")[0], int(rest.split(":")[1].split("#")[0])
-        else:
-            return False
-        s = socket.socket()
-        s.settimeout(2)
-        s.connect((host, port))
-        s.close()
-        return True
-    except Exception:
-        return False
+# حذف تکراری‌ها
+unique_configs = list(dict.fromkeys(all_configs))
 
-# جمع‌آوری سرورها
-for url in sources:
-    nodes = fetch_and_decode(url)
-    for n in nodes:
-        all_nodes.add(n)
+# تاریخ و ساعت شمسی
+now = jdatetime.datetime.now().strftime("%d %B %Y ساعت %H:%M")
 
-print(f"[+] Total nodes before filter: {len(all_nodes)}")
+# ساخت متن خروجی
+header = f"# بروزرسانی: {now}\n\n"
+output = header + "\n".join(unique_configs)
 
-# تست و فیلتر سالم‌ها
-alive_nodes = [n for n in all_nodes if is_alive(n)]
-print(f"[+] Alive nodes: {len(alive_nodes)}")
+# ذخیره فایل خروجی txt
+with open("output.txt", "w", encoding="utf-8") as f:
+    f.write(output)
 
-# ساخت خروجی subscription
-final_str = "\n".join(alive_nodes)
-encoded = base64.b64encode(final_str.encode()).decode()
-
-with open("output.txt", "w") as f:
-    f.write(encoded)
-
-# زمان فعلی به وقت تهران (شمسی)
-tehran = pytz.timezone("Asia/Tehran")
-now_tehran = datetime.now(tehran)
-jnow = jdatetime.datetime.fromgregorian(datetime=now_tehran)
-formatted_time = f"آپدیت: {jnow.day} {jnow.j_months_fa[jnow.month-1]} {jnow.year} ساعت {now_tehran.strftime('%H:%M')} به وقت تهران"
-
-# ساخت صفحه HTML ساده
-html = f"""
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <title>V2Ray Subscription</title>
-    <style>
-        body {{ font-family: sans-serif; direction: rtl; max-width: 600px; margin: auto; padding: 20px; }}
-        .card {{ background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1); }}
-        h1 {{ font-size: 1.5rem; }}
-        .meta {{ color: #555; margin-bottom: 10px; }}
-        a {{ display: inline-block; margin-top: 10px; padding: 10px 15px; background: #007bff; color: #fff; border-radius: 8px; text-decoration: none; }}
-        a:hover {{ background: #0056b3; }}
-    </style>
-</head>
+# ساخت فایل index.html برای GitHub Pages
+html_content = f"""
+<html>
+<head><meta charset="utf-8"><title>سرورها</title></head>
 <body>
-    <div class="card">
-        <h1>V2Ray Subscription</h1>
-        <div class="meta">{formatted_time}</div>
-        <div>تعداد سرورهای سالم: {len(alive_nodes)}</div>
-        <a href="output.txt">دانلود سابسکریپشن</a>
-    </div>
+<h2>آخرین {len(unique_configs)} سرور جمع‌آوری‌شده</h2>
+<p>بروزرسانی: {now} به وقت تهران</p>
+<textarea style="width:100%;height:400px;">{"\n".join(unique_configs)}</textarea>
 </body>
 </html>
 """
 
-with open("index.html", "w") as f:
-    f.write(html)
-
-print("[+] Files generated: output.txt & index.html")
+with open("index.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
