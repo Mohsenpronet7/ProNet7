@@ -7,7 +7,6 @@ with open("sources.txt", "r") as f:
     urls = [line.strip() for line in f if line.strip()]
 
 all_configs = []
-
 for url in urls:
     try:
         res = requests.get(url, timeout=20)
@@ -24,28 +23,72 @@ unique_configs = list(dict.fromkeys(all_configs))
 # تاریخ و ساعت شمسی
 now = jdatetime.datetime.now().strftime("%d %B %Y ساعت %H:%M")
 
-# ساخت متن خروجی
-header = f"# بروزرسانی: {now}\n\n"
-output = header + "\n".join(unique_configs)
-
 # ذخیره فایل خروجی txt
 with open("output.txt", "w", encoding="utf-8") as f:
-    f.write(output)
+    f.write("\n".join(unique_configs))
 
-# ساخت فایل index.html برای GitHub Pages
+# ساخت HTML شکیل‌تر
 html_content = f"""
-<html>
+<!DOCTYPE html>
+<html lang="fa">
 <head>
-  <meta charset="utf-8">
-  <title>سرورهای V2Ray</title>
+    <meta charset="utf-8">
+    <title>📡 لیست سرورهای V2Ray</title>
+    <style>
+        body {{
+            font-family: Tahoma, Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }}
+        h1 {{
+            color: #2c3e50;
+        }}
+        .info {{
+            margin: 20px auto;
+            font-size: 18px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }}
+        a {{
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }}
+        a:hover {{
+            background: #2980b9;
+        }}
+        textarea {{
+            width: 90%;
+            height: 400px;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 13px;
+            direction: ltr;
+        }}
+    </style>
 </head>
-<body style="font-family:tahoma;direction:rtl;margin:20px;">
-  <h2>آخرین بروزرسانی</h2>
-  <p>📅 {now} به وقت تهران</p>
-  <p>🔗 تعداد سرورها: {len(unique_configs)}</p>
-  <p><a href="output.txt" download>دانلود فایل کامل (output.txt)</a></p>
-  <hr>
-  <textarea style="width:100%;height:400px;">{"\n".join(unique_configs)}</textarea>
+<body>
+    <h1>📡 لیست سرورهای V2Ray</h1>
+    <div class="info">
+        <p>📅 بروزرسانی: {now} به وقت تهران</p>
+        <p>🔗 تعداد سرورها: {len(unique_configs)}</p>
+        <a href="output.txt" download>⬇️ دانلود فایل کامل (output.txt)</a>
+    </div>
+    <textarea readonly>
+{chr(10).join(unique_configs[:200])}
+    </textarea>
+    <p style="color:gray; font-size:14px;">(فقط ۲۰۰ سرور اول برای نمایش سریع لیست شده‌اند)</p>
 </body>
 </html>
 """
