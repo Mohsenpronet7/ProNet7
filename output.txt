@@ -764,8 +764,8 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
-W܉Ɲjw׮x}8k
-r*jXܯ*m
+chacha20-ietf-poly1305:8665ab20-e997-4839-b691-e0ccdc8715ab5{n5^uMj'~(,%chacha20-ietf-poly1305:ed7b6c5e-4658-426e-9764-13226b4256d87m7Muk'((?јՅܴ䵈ĵՅnv^}N9j'~(,%chacha20-ietf-poly1305:f09db49c-7a78-46e7-a994-efe676fb7f637mwM4k'((?јՅܴ䵈ĵՅ߭]8}5Nj'~(,%chacha20-ietf-poly1305:61b78487-1c7f-4aca-b1d7-b1a7583714f57mݴ]5ߋwh[z?Ȝi֧zzx7Ӎ6.+r楊ܞبz'z_@ o^tزwP[:9}#sxzr)af{&*^l,0:.v֭jkx
+^&'
 WMvӍ[}ͽק}
 uսβ.,x~<K
 r'r*'ކ-Ό
@@ -773,6 +773,7 @@ r'r*'ކ-Ό
 5
 ߎ4wZ덶]xO=^y˫
 W9kN<׶n~}MtמZ]*_ܢmߋ
+r*jXܯ*m
 Wms8[ۍs}ƞuӍ|ۯtOzzw+ʛby
 r+e<v7ε|ڂ]iا~r,-<v7ε|ڂ]iا~Z
 nv,M^
