@@ -739,10 +739,12 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
-W~wۗwֹ׏=nǝ}}릵{v7.+r楊ܞبz'z(}<vgE-F
-PG9G'>!y^<zz'y
-W9kN<׶n~}MtמZ]*_ܢmߋ
+chacha20-ietf-poly1305:65847478-567f-47d3-8573-121a0b34e1dc7m_8Mtk'((^{6_wxwM9y
+6۝}<j
+z
+.+rzw+ʛbyr+wh[z?7}w}kxvo\y޺k^׾|n{
 r*jXܯ*m
+W9kN<׶n~}MtמZ]*_ܢmߋ
 Wms8[ۍs}ƞuӍ|ۯtOzzw+ʛby
 r+e<v7ε|ڂ]iا~r,-<v7ε|ڂ]iا~Z
 nv,M^
