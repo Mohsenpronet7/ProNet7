@@ -1,5 +1,4 @@
 https://raw.githubusercontent.com/hackteame/subscription/refs/heads/main/v2rayng
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/vless.txt
 https://1oi.xyz/proxies/v2ray/location/FR
 https://1oi.xyz/proxies/v2ray/location/DE
 https://1oi.xyz/proxies/v2ray/location/US
