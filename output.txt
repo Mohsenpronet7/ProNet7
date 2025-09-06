@@ -774,25 +774,7 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
-chacha20-ietf-poly1305:ce564423-e307-45d8-9942-1dbdb6c6e8ef5׎:}uN8j'~(,%aes-256-gcm:FoOiGlkAA9yPEGPtm׭;Nڶrߊ
-)lXL
-ZY]\
-LL
-N
-ٙYLN
-M
-XLMKMLN
-YLXM
-uM^u]=j'~(,%chacha20-ietf-poly1305:0de6dbb6-daf7-4869-aca5-f470f1fa68147mO5t׍ڶrߊ
-N؎
-LLKXَ
-MLYNLLL
-Y
-
-M
-u㎵ӽu]4{wh[,66#֖WFbǓ3SfCV#cSr6CFRCC3b#c3VSC3]x9]4wh[,66#֖WFbǓ3Sss#CF62FV"ӆCC#FcC3c]xvݵNj'~(,%chacha20-ietf-poly1305:0de6dbb6-daf7-4869-aca5-f470f1fa68147m}]5kwh[,66#֖WFbǓ3SfCV#cSr6CFRCC3b#c3VSC3]|׽6Ӎy]4ӫwh[,66#֖WFbǓ3Sccf6fVb3Ff6BvRsSCSc]xmuN6j'~(,%chacha20-ietf-poly1305:6d8eb657-3d4e-49d9-ac16-2968c5e8d1a35׮zMj'~(,%chacha20-ietf-poly1305:6c76a0f1-5c68-4aa1-ace3-c0ff6d732c4f5׎:x]4wh[,66#֖WFbǓ3ScSCsCsScvbCvC2ӃSs2##3FSF3~ߟutO/ڶrߊ
-)o,n5~9ݷt߿<߯
-9m&
+chacha20-ietf-poly1305:65847478-567f-47d3-8573-121a0b34e1dc5׮}]yM5k'((^w~׶uk]wms{n*{(}[r\uʗ
 W9kN<׶n~}MtמZ]*_ܢmߋ
 r*jXܯ*m
 Wms8[ۍs}ƞuӍ|ۯtOzzw+ʛby
@@ -808,6 +790,7 @@ XKSRST݌^SPۙYȋZY[
 Ȏ'<'#
 ڙXHSRSTȋHXL
 \
+LL
 HۚH
 Ȏ
 \HۙHB{"v":"2","ps":"XX(AzadNet.t.me) (17)","add":"103.57.249.204","port":"443","type":"none","id":"f13143a7-542d-49ec-9428-098142b6977c","aid":"0","net":"tcp","path":"/","host":"","tls":""}
