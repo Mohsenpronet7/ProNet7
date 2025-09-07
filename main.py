@@ -96,12 +96,13 @@ html_content = f"""
         pre {{
             background: #2c3e50;
             color: #ecf0f1;
-            padding: 20px;
+            padding: 15px;
             border-radius: 10px;
             text-align: left;
             direction: ltr;
-            unicode-bidi: plaintext;  /* اضافه شده برای درست نمایش دادن متن انگلیسی و فارسی */
+            unicode-bidi: plaintext;  /* حل مشکل متن ترکیبی فارسی و انگلیسی */
             font-family: Vazirmatn, Tahoma, Arial, sans-serif;
+            font-size: 14px;          /* سایز کوچک‌تر برای ۵۰ کانفیگ اول */
             overflow-x: auto;
             max-height: 500px;
         }}
