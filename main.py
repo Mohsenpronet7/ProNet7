@@ -1,6 +1,8 @@
 import requests
 import base64
 import jdatetime
+from datetime import datetime
+import pytz  # اگر Python >= 3.9 دارید می‌توانید zoneinfo استفاده کنید
 
 # تابع برای چک کردن اینکه متن base64 هست یا نه
 def is_base64(s: str) -> bool:
@@ -34,8 +36,20 @@ for url in urls:
 # حذف تکراری‌ها
 unique_configs = list(dict.fromkeys(all_configs))
 
-# تاریخ و ساعت شمسی
-now = jdatetime.datetime.now().strftime("%d %B %Y ساعت %H:%M")
+# تاریخ و ساعت شمسی با timezone ایران
+tehran_tz = pytz.timezone("Asia/Tehran")
+now_utc = datetime.utcnow().replace(tzinfo=pytz.utc)
+now_tehran = now_utc.astimezone(tehran_tz)
+now_jalali = jdatetime.datetime.fromgregorian(datetime=now_tehran)
+
+# دیکشنری نام ماه فارسی
+months_fa = {
+    1: "فروردین", 2: "اردیبهشت", 3: "خرداد", 4: "تیر",
+    5: "مرداد", 6: "شهریور", 7: "مهر", 8: "آبان",
+    9: "آذر", 10: "دی", 11: "بهمن", 12: "اسفند"
+}
+
+now = f"{now_jalali.day} {months_fa[now_jalali.month]} {now_jalali.year} ساعت {now_jalali.hour:02}:{now_jalali.minute:02}"
 
 # ذخیره فایل خروجی txt
 with open("output.txt", "w", encoding="utf-8") as f:
