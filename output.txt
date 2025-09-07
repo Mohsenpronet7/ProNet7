@@ -1142,6 +1142,9 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNWFiZWFkMy0wYjlkLTRmZjgtOWVjYy1mMGFkNWVmMGExOTI@36.234.68.116:10071#@v2ray_configs_pool
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmODc1ODhjNC1mNzU5LTQ2MzQtOWI2My0zMjAzMmVkZTY0YmQ@1.170.47.9:10100#@v2ray_configs_pool
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNDA5ZjUzNy0xMjkyLTRkNzUtYjczOC0zODAxNjdmNjZlZjg@118.170.216.104:10031#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMGFjMTExNi0yOTk1LTQ2OWQtYjI3Mi1jYzU4ZjkxMWViMDg@36.232.69.138:10146#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNmJiMmEzYy0yNzQwLTQyZjQtYWZmMy1hYzQ2M2RiNzNlOGU@114.46.110.39:10038#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZmY0YjdjMy00N2YzLTRhOWItOTdiYS1kMjE3YTkyZTE2MDA@118.170.219.68:10059#@v2ray_configs_pool
@@ -1159,14 +1162,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOTUyZWY3OS01NDQ0LTQ0MzEtYWVkMS1mYTc2ZTY1MTI
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMGFjMTExNi0yOTk1LTQ2OWQtYjI3Mi1jYzU4ZjkxMWViMDg@59.126.32.1:10058#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjODQ0OWFjOS0xNGZmLTQyY2EtYjZjZi04MTZkNzQzZmRkMjM@36.234.72.84:10067#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNTQ2MThkZi1lY2M2LTQ2YTQtOTYxOS04OTM0MTM4YzhhZGQ@114.46.93.196:10068#@v2ray_configs_pool
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYzE0ZGM0Mi0yNDc0LTQyYmQtYmVlNy1lOTc2OTc1OWM2OTI@1.165.82.161:10027#@v2ray_configs_pool
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMTUyMzVjOS00OWIxLTQ2MWUtYTc4Mi1iZWIwMTg1NzYzNGQ@1.165.82.161:10027#@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsImFkZCI6IjE2NS4xNDAuMjE2LjE0MSIsInBvcnQiOiI0NDMiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsImlkIjoiZTdkNzJhOGQtMjZmMi00YjU0LWIzNjYtMGM0M2UwYmNiYTdkIiwic25pIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
 vmess://eyJhZGQiOiI4OS4zMS4xMjAuMTkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQ0NTM3NTk1LTljY2MtNGI4My04OTM2LTVmOWFkMzIyOTAxOSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 vmess://eyJhZGQiOiIxMDMuNTcuMjQ5LjIwNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmMTMxNDNhNy01NDJkLTQ5ZWMtOTQyOC0wOTgxNDJiNjk3N2MiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6Im5vbmUiLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
 vless://a6a61af5-828f-42af-fc48-a69e386d0f2c@65.109.238.79:2080?encryption=none&security=none&type=tcp&headerType=none#@v2ray_configs_pool
-vless://5d2eb11f-0138-490d-9781-f9cfb60c1766@EVAY_VPN.fastly80.hosting-ip.com:80?type=ws&host=gm195.io&path=/admin?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed%3D2048&security=none#@v2ray_configs_pool
-trojan://253bc477d4e43c209f2d427272968280@xingxing.jiasu123.org:46943?allowInsecure=1&sni=23.45.86.28#@v2ray_configs_pool
-vless://75916ff8-2f80-43dc-ba9a-34464e1bd340@m36a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@v2ray_configs_pool
 vless://738c5a04-817a-4f50-b327-893595010155@all32-vip.f-sub.com:2434?security=reality&encryption=none&pbk=yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA&headerType=none&fp=chrome&type=tcp&sni=chess.com#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40Fr33C0nfig%20%5B10%5D
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.190.38:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40Fr33C0nfig%20%5B11%5D
 vmess://eyJhZGQiOiJjdXN0b21lcnMudGVsZS1zaG9wLXRvby5zdHVkaW8iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZWFhZTUyZDctYmMxYS00OTc5LWJkNjYtYjZiNDI4MTA3MTczIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIzMzIwMyIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhIERFIHwgXHVkODNkXHVkZDEzIFZNRVNTIHwgQEZyMzNDMG5maWcgWzE0XSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0
