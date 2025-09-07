@@ -54,10 +54,10 @@ now = f"{now_jalali.day} {months_fa[now_jalali.month]} {now_jalali.year} ساع�
 with open("output.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(unique_configs))
 
-# مسیر تصویر QR که خودت آماده کرده‌ای
-qr_image_path = "qr.png"  # ← اینجا فایل QR خودت کنار پروژه باشد
+# مسیر تصویر QR که کنار پروژه باشد
+qr_image_path = "qr.png"
 
-# ساخت HTML شکیل با تصویر QR
+# ساخت HTML شکیل با تصویر QR سایز استاندارد ۲۰۰x۲۰۰
 html_content = f"""
 <!DOCTYPE html>
 <html lang="fa">
@@ -66,7 +66,7 @@ html_content = f"""
     <title>📡 لیست سرورهای V2Ray</title>
     <style>
         body {{
-            font-family: Vazirmatn, Tahoma, sans-serif;
+            font-family: Vazirmatn, Tahoma, Arial, sans-serif;
             background: #f5f7fa;
             color: #222;
             text-align: center;
@@ -100,11 +100,17 @@ html_content = f"""
             border-radius: 10px;
             text-align: left;
             direction: ltr;
+            unicode-bidi: plaintext;  /* اضافه شده برای درست نمایش دادن متن انگلیسی و فارسی */
+            font-family: Vazirmatn, Tahoma, Arial, sans-serif;
             overflow-x: auto;
             max-height: 500px;
         }}
         .qr {{
             margin: 30px 0;
+        }}
+        .qr img {{
+            width: 200px;
+            height: 200px;
         }}
     </style>
 </head>
