@@ -2,7 +2,11 @@ import requests
 import base64
 import jdatetime
 from datetime import datetime
-import pytz  # اگر Python >= 3.9 دارید می‌توانید zoneinfo استفاده کنید
+import pytz
+
+# فایل ورودی لیست لینک‌ها
+with open("sources.txt", "r") as f:
+    urls = [line.strip() for line in f if line.strip()]
 
 # تابع برای چک کردن اینکه متن base64 هست یا نه
 def is_base64(s: str) -> bool:
@@ -11,10 +15,6 @@ def is_base64(s: str) -> bool:
     except Exception:
         return False
 
-# فایل ورودی لیست لینک‌ها
-with open("sources.txt", "r") as f:
-    urls = [line.strip() for line in f if line.strip()]
-
 all_configs = []
 for url in urls:
     try:
@@ -22,14 +22,13 @@ for url in urls:
         if res.status_code == 200:
             text = res.text.strip()
 
-            if is_base64(text.replace("\n", "")):  # اگر base64 بود
+            if is_base64(text.replace("\n", "")):
                 decoded = base64.b64decode(text).decode("utf-8", errors="ignore")
                 configs = [line.strip() for line in decoded.splitlines() if line.strip()]
-            else:  # اگر نبود
+            else:
                 configs = [line.strip() for line in text.splitlines() if line.strip()]
 
             all_configs.extend(configs)
-
     except Exception as e:
         print(f"خطا در دریافت {url}: {e}")
 
@@ -55,7 +54,10 @@ now = f"{now_jalali.day} {months_fa[now_jalali.month]} {now_jalali.year} ساع�
 with open("output.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(unique_configs))
 
-# ساخت HTML شکیل‌تر
+# مسیر تصویر QR که خودت آماده کرده‌ای
+qr_image_path = "qr.png"  # ← اینجا فایل QR خودت کنار پروژه باشد
+
+# ساخت HTML شکیل با تصویر QR
 html_content = f"""
 <!DOCTYPE html>
 <html lang="fa">
@@ -101,6 +103,9 @@ html_content = f"""
             overflow-x: auto;
             max-height: 500px;
         }}
+        .qr {{
+            margin: 30px 0;
+        }}
     </style>
 </head>
 <body>
@@ -108,6 +113,10 @@ html_content = f"""
     <div class="info">📅 بروزرسانی: {now} به وقت تهران</div>
     <div class="info">🔗 تعداد سرورها: {len(unique_configs)}</div>
     <a class="btn" href="output.txt" download>⬇️ دانلود فایل کامل (output.txt)</a>
+    <div class="qr">
+        <h3>📱 اسکن QR برای استفاده در V2RayNG / Hiddify</h3>
+        <img src="{qr_image_path}" alt="QR Code">
+    </div>
     <pre>{chr(10).join(unique_configs[:50])}</pre>
 </body>
 </html>
