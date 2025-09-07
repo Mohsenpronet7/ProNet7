@@ -1,9 +1,10 @@
 import requests
 import base64
 import jdatetime
+from datetime import datetime, timedelta
 
 # فایل ورودی لیست لینک‌ها
-with open("sources.txt", "r") as f:
+with open("sources.txt", "r", encoding="utf-8") as f:
     urls = [line.strip() for line in f if line.strip()]
 
 all_configs = []
@@ -11,8 +12,14 @@ for url in urls:
     try:
         res = requests.get(url, timeout=20)
         if res.status_code == 200:
-            decoded = base64.b64decode(res.text).decode("utf-8", errors="ignore")
-            configs = [line.strip() for line in decoded.splitlines() if line.strip()]
+            text = res.text.strip()
+            # اگه سورس base64 باشه
+            try:
+                decoded = base64.b64decode(text).decode("utf-8", errors="ignore")
+                configs = [line.strip() for line in decoded.splitlines() if line.strip()]
+            except Exception:
+                # اگه مستقیم باشه (مثلاً vmess://...)
+                configs = [line.strip() for line in text.splitlines() if line.strip()]
             all_configs.extend(configs)
     except Exception as e:
         print(f"خطا در دریافت {url}: {e}")
@@ -20,19 +27,23 @@ for url in urls:
 # حذف تکراری‌ها
 unique_configs = list(dict.fromkeys(all_configs))
 
-# تاریخ و ساعت شمسی (به فارسی)
+# زمان به وقت ایران (UTC +3:30)
+utc_now = datetime.utcnow()
+tehran_time = utc_now + timedelta(hours=3, minutes=30)
+
+# تبدیل به تاریخ شمسی
 months_fa = [
     "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور",
     "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"
 ]
-now_jalali = jdatetime.datetime.now()
+now_jalali = jdatetime.datetime.fromgregorian(datetime=tehran_time)
 now_fa = f"{now_jalali.day} {months_fa[now_jalali.month - 1]} {now_jalali.year} ساعت {now_jalali.strftime('%H:%M')}"
 
 # ذخیره فایل خروجی txt
 with open("output.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(unique_configs))
 
-# ساخت HTML شکیل‌تر با رنگ صورتی + سفید
+# ساخت HTML
 html_content = f"""
 <!DOCTYPE html>
 <html lang="fa">
