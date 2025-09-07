@@ -31,13 +31,11 @@ for url in urls:
     except Exception as e:
         print(f"خطا در دریافت {url}: {e}")
 
-# تاریخ و ساعت شمسی (به فارسی)
-months_fa = [
-    "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور",
-    "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"
-]
-now_jalali = jdatetime.datetime.now()
-now_fa = f"{now_jalali.day} {months_fa[now_jalali.month - 1]} {now_jalali.year} ساعت {now_jalali.strftime('%H:%M')}"
+# حذف تکراری‌ها
+unique_configs = list(dict.fromkeys(all_configs))
+
+# تاریخ و ساعت شمسی
+now = jdatetime.datetime.now().strftime("%d %B %Y ساعت %H:%M")
 
 # ذخیره فایل خروجی txt
 with open("output.txt", "w", encoding="utf-8") as f:
