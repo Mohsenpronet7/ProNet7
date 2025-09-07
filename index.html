@@ -6,7 +6,7 @@
     <title>📡 لیست سرورهای V2Ray</title>
     <style>
         body {
-            font-family: Vazirmatn, Tahoma, sans-serif;
+            font-family: Vazirmatn, Tahoma, Arial, sans-serif;
             background: #f5f7fa;
             color: #222;
             text-align: center;
@@ -40,17 +40,23 @@
             border-radius: 10px;
             text-align: left;
             direction: ltr;
+            unicode-bidi: plaintext;  /* اضافه شده برای درست نمایش دادن متن انگلیسی و فارسی */
+            font-family: Vazirmatn, Tahoma, Arial, sans-serif;
             overflow-x: auto;
             max-height: 500px;
         }
         .qr {
             margin: 30px 0;
         }
+        .qr img {
+            width: 200px;
+            height: 200px;
+        }
     </style>
 </head>
 <body>
     <h2>📡 لیست سرورهای V2Ray</h2>
-    <div class="info">📅 بروزرسانی: 16 شهریور 1404 ساعت 12:15 به وقت تهران</div>
+    <div class="info">📅 بروزرسانی: 16 شهریور 1404 ساعت 12:19 به وقت تهران</div>
     <div class="info">🔗 تعداد سرورها: 2287</div>
     <a class="btn" href="output.txt" download>⬇️ دانلود فایل کامل (output.txt)</a>
     <div class="qr">
