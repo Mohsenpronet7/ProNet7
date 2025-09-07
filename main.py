@@ -2,7 +2,13 @@ import requests
 import base64
 import jdatetime
 from datetime import datetime
-import pytz  # اگر Python >= 3.9 دارید می‌توانید zoneinfo استفاده کنید
+import pytz
+import qrcode
+from io import BytesIO
+import base64 as b64
+
+# لینک مورد نظر برای QR کد
+v2ray_link = "https://mohsenpronet7.github.io/ProNet7/output.txt"
 
 # تابع برای چک کردن اینکه متن base64 هست یا نه
 def is_base64(s: str) -> bool:
@@ -55,7 +61,17 @@ now = f"{now_jalali.day} {months_fa[now_jalali.month]} {now_jalali.year} ساع�
 with open("output.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(unique_configs))
 
-# ساخت HTML شکیل‌تر
+# تولید QR کد و تبدیل به Base64 برای نمایش در HTML
+qr = qrcode.QRCode(box_size=6, border=2)
+qr.add_data(v2ray_link)
+qr.make(fit=True)
+img = qr.make_image(fill_color="black", back_color="white")
+
+buffered = BytesIO()
+img.save(buffered, format="PNG")
+img_str = b64.b64encode(buffered.getvalue()).decode()
+
+# ساخت HTML شکیل‌تر با QR
 html_content = f"""
 <!DOCTYPE html>
 <html lang="fa">
@@ -101,6 +117,9 @@ html_content = f"""
             overflow-x: auto;
             max-height: 500px;
         }}
+        .qr {{
+            margin: 30px 0;
+        }}
     </style>
 </head>
 <body>
@@ -108,6 +127,10 @@ html_content = f"""
     <div class="info">📅 بروزرسانی: {now} به وقت تهران</div>
     <div class="info">🔗 تعداد سرورها: {len(unique_configs)}</div>
     <a class="btn" href="output.txt" download>⬇️ دانلود فایل کامل (output.txt)</a>
+    <div class="qr">
+        <h3>📱 اسکن QR برای استفاده در V2RayNG / Hiddify</h3>
+        <img src="data:image/png;base64,{img_str}" alt="QR Code">
+    </div>
     <pre>{chr(10).join(unique_configs[:50])}</pre>
 </body>
 </html>
