@@ -1114,6 +1114,7 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
+vless://b4b8aa1f-77d2-4851-a5a4-f78886f3e997@deu246.bypassall.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com#@v2ray_configs_pool
 vmess://eyJhZGQiOiJmYXBlbmcub3JnIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJmYXBlbmcub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiJsaW5rdndzIiwicG9ydCI6IjQ0MyIsInNjeSI6ImF1dG8iLCJzbmkiOiJmYXBlbmcub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwicHMiOiJAdjJyYXlfY29uZmlnc19wb29sIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
 vless://502ce704-dcec-4f92-9489-505c99ce6c89@172.66.40.99:2096?path=%2F&security=tls&encryption=none&host=d11.AlanHIAhO.cOM&type=ws&sni=d11.AlanHIAhO.cOM#@v2ray_configs_pool
 vless://94a028e2-b2f8-5019-ade4-5e462ee6ae1e@nl1.xvless.online:443?path=%2Fvless&security=tls&encryption=none&host=nl1.xvless.online&type=ws&sni=nl1.xvless.online#@v2ray_configs_pool
@@ -1135,7 +1136,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co
 vless://0bb6dff2-0029-4b81-8c81-4fc70fae1ed9@eng14.netliberated.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2FTELEGRAM_JKVPN_JKVPN&type=tcp&flow=xtls-rprx-vision&sni=www.halfords.com#@v2ray_configs_pool
 vmess://eyJhZGQiOiJjMDA0ZTZmZS10MWk5czAtdG01M2NtLTFvbDk3LmhrdC50Y3BiYnIubmV0IiwiYWlkIjowLCJob3N0IjoiYzAwNGU2ZmUtdDFpOXMwLXRtNTNjbS0xb2w5Ny5oa3QudGNwYmJyLm5ldCIsImlkIjoiOTNmYjY5ZmMtNzdjZi0xMWVlLTg1ZWUtZjIzYzkxMzY5ZjJkIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjgwLCJwcyI6IkB2MnJheV9jb25maWdzX3Bvb2wiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImJyb2FkY2FzdGx2LmNoYXQuYmlsaWJpbGkuY29tIn0=
 vless://f89b31c8-07f8-4aa3-f8f7-ae5172e03bd6@156.244.46.198:44746?allowInsecure=1&security=tls#@v2ray_configs_pool
-vless://b4b8aa1f-77d2-4851-a5a4-f78886f3e997@deu246.bypassall.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com#@v2ray_configs_pool
 vless://21d29623-3b91-4494-8402-08372da813a9@m31a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@v2ray_configs_pool
 vless://4c360a19-8d5d-4c7b-b2cd-a4825714554a@161.35.184.205:2053?security=reality&encryption=none&pbk=G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00&headerType=none&fp=chrome&type=tcp&sni=www.openstreetmap.org&sid=d7#@v2ray_configs_pool
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.72:8880?security=&encryption=none&type=grpc#@v2ray_configs_pool
