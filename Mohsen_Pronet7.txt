@@ -555,7 +555,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNDc3ZDU5My05OTk0LTQ3NzUtYjJkNS1jNzMwNjRlZTR
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMmZlZjI4ZC05NjlhLTQ2MmUtYWQ1ZS1mM2E4ODZjODIzMDE@36.235.0.49:10148#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5OTlhOGQzYy01YjI3LTRlN2YtOWEyNC1kYzJlNTUyNmI0ZTg@111.253.194.5:10127#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMmZlZjI4ZC05NjlhLTQ2MmUtYWQ1ZS1mM2E4ODZjODIzMDE@1.170.35.39:10106#@v2ray_configs_pool
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5OTlhOGQzYy01YjI3LTRlN2YtOWEyNC1kYzJlNTUyNmI0ZTg@125.229.88.58:10121#@v2ray_configs_pool
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2N2RlNDkzZS00MjJkLTQ1MjgtYjMzNy0yOTYzZDU5N2Y3Y2Q@125.229.88.58:10121#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MWY1ZWQ4NS1kMTNkLTRhOTktYWEzYy0yZWRjMTg1YmE4YjY@1.165.122.18:10011#@v2ray_configs_pool
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&encryption=none&host=CuEg4R5u01.SoLeNtRaA.iNfO&fp=chrome&type=ws&sni=CuEg4R5u01.SoLeNtRaA.iNfO#@v2ray_configs_pool
 vless://6ea9f368-45fd-400e-bafa-32190bc4b0bc@65.109.204.177:443?note=---Telegram---NetifyVPN---Telegram---NetifyVPN---Telegram---NetifyVPN---Telegram---NetifyVPN---&encryption=none&security=none&type=ws&path=%2F#@v2ray_configs_pool
