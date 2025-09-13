@@ -2,18 +2,18 @@ name: Update V2Ray List
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # هر 10 دقیقه یک بار
-  workflow_dispatch:          # اجرا به صورت دستی
+    - cron: "*/10 * * * *"   # اجرای خودکار هر 10 دقیقه
+  workflow_dispatch:          # اجرای دستی
 
 permissions:
-  contents: write             # دسترسی کامل برای push به ریپو
+  contents: write             # دسترسی لازم برای push
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. دریافت سورس کد ریپو
+      # 1. دریافت سورس ریپو
       - name: Checkout repo
         uses: actions/checkout@v3
 
@@ -27,15 +27,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # 4. اجرای اسکریپت
+      # 4. اجرای اسکریپت اصلی
       - name: Run script
         run: python main.py
 
-      # 5. ذخیره تغییرات و پوش
+      # 5. کامیت و پوش خروجی‌ها
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add Mohsen_Pronet7.txt index.html
-          git commit -m "Update V2Ray List" || echo "No changes to commit"
+          git commit -m "Auto update V2Ray List" || echo "No changes to commit"
           git push
