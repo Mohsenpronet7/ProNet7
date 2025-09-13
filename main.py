@@ -119,7 +119,7 @@ html_content = f"""
     <h2>📡 لیست سرورهای V2Ray</h2>
     <div class="info">📅 بروزرسانی: {now} به وقت تهران</div>
     <div class="info">🔗 تعداد سرورها: {len(unique_configs)}</div>
-    <a class="btn" href="output.txt" download>⬇️ دانلود فایل کامل (output.txt)</a>
+    <a class="btn" href="Mohsen_Pronet7.txt" download>⬇️ دانلود فایل کامل (Mohsen_Pronet7.txt)</a>
     <div class="qr">
         <h3>📱 اسکن QR برای استفاده در V2RayNG / Hiddify</h3>
         <img src="{qr_image_path}" alt="QR Code">
@@ -131,4 +131,5 @@ html_content = f"""
 
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+
 
