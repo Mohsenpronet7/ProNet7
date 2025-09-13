@@ -1,33 +1,33 @@
-name: Update Subscription
+name: Update V2Ray List
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # اجرای خودکار هر ۱۰ دقیقه (بر اساس UTC)
-  workflow_dispatch:         # امکان اجرای دستی
+    - cron: "*/10 * * * *"   # هر ۱۰ دقیقه
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - run: python main.py
+      - name: Run script
+        run: python main.py
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.email "github-actions@github.com"
           git add Mohsen_Pronet7.txt index.html
-          git commit -m "Auto update subscription" || echo "No changes to commit"
-          git pull --rebase
+          git commit -m "Update V2Ray List"
           git push
