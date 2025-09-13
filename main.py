@@ -50,7 +50,7 @@ months_fa = {
 
 now = f"{now_jalali.day} {months_fa[now_jalali.month]} {now_jalali.year} ساعت {now_jalali.hour:02}:{now_jalali.minute:02}"
 
-# ذخیره فایل خروجی txt
+# ذخیره فایل خروجی txt با اسم جدید
 with open("Mohsen_Pronet7.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(unique_configs))
 
@@ -67,13 +67,13 @@ html_content = f"""
     <style>
         body {{
             font-family: Vazirmatn, Tahoma, Arial, sans-serif;
-            background: #f5f7fa;
+            background: linear-gradient(135deg, #ffe6f0, #ffffff);
             color: #222;
             text-align: center;
             padding: 40px;
         }}
         h2 {{
-            color: #2c3e50;
+            color: #c2185b;
         }}
         .info {{
             margin: 20px 0;
@@ -83,7 +83,7 @@ html_content = f"""
             display: inline-block;
             margin: 20px;
             padding: 12px 24px;
-            background: #27ae60;
+            background: #d81b60;
             color: #fff;
             text-decoration: none;
             border-radius: 8px;
@@ -91,7 +91,7 @@ html_content = f"""
             transition: 0.3s;
         }}
         .btn:hover {{
-            background: #2ecc71;
+            background: #ec407a;
         }}
         pre {{
             background: #2c3e50;
@@ -100,9 +100,9 @@ html_content = f"""
             border-radius: 10px;
             text-align: left;
             direction: ltr;
-            unicode-bidi: plaintext;  /* حل مشکل متن ترکیبی فارسی و انگلیسی */
+            unicode-bidi: plaintext;
             font-family: Vazirmatn, Tahoma, Arial, sans-serif;
-            font-size: 14px;          /* سایز کوچک‌تر برای ۵۰ کانفیگ اول */
+            font-size: 14px;
             overflow-x: auto;
             max-height: 500px;
         }}
@@ -131,5 +131,3 @@ html_content = f"""
 
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
-
-
