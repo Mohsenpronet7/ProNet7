@@ -51,7 +51,7 @@ months_fa = {
 now = f"{now_jalali.day} {months_fa[now_jalali.month]} {now_jalali.year} ساعت {now_jalali.hour:02}:{now_jalali.minute:02}"
 
 # ذخیره فایل خروجی txt
-with open("output.txt", "w", encoding="utf-8") as f:
+with open("Mohsen_Pronet7.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(unique_configs))
 
 # مسیر تصویر QR که کنار پروژه باشد
@@ -131,3 +131,4 @@ html_content = f"""
 
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+
