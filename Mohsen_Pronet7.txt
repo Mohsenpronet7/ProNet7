@@ -524,8 +524,8 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
-vless://962bfec5-ef89-4180-8f5b-9209a7207668@51.195.31.95:80?allowInsecure=0&sni=wWw.speEDtEST.NeT&type=ws&host=wWw.speEDtEST.NeT&path=/wslinws#@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsImFkZCI6ImthbXBvbmcub3JnIiwicG9ydCI6IjQ0MyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMSIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImthbXBvbmcub3JnIiwicGF0aCI6Imxpbmt2d3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJrYW1wb25nLm9yZyIsImFscG4iOiIiLCJmcCI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
+vless://962bfec5-ef89-4180-8f5b-9209a7207668@51.195.31.95:80?allowInsecure=0&sni=wWw.speEDtEST.NeT&type=ws&host=wWw.speEDtEST.NeT&path=/wslinws#@v2ray_configs_pool
 vmess://eyJhZGQiOiJzZXJrYXQub3JnIiwiYWlkIjoxLCJob3N0Ijoic2Vya2F0Lm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoibGlua3Z3cyIsInBvcnQiOjQ0MywidGxzIjoidGxzIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJwcyI6IkB2MnJheV9jb25maWdzX3Bvb2wifQ==
 vless://71504eaf-29ac-4190-89d1-dd9ce2c9ee14@backus1.dh03.shop:443?encryption=none&security=tls&sni=backus1.dh03.shop&type=ws&host=backus1.dh03.shop&path=%2Fhigate#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#@v2ray_configs_pool
