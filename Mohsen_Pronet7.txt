@@ -523,8 +523,9 @@ vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@172.66.40.99:8443?path=%2F&security
 vless://c4253041-7593-447d-a582-5ab80bc85918@freev2.cloudflare.182682.xyz:443?allowInsecure=0&sni=do-syd1.008883.xyz&type=ws&host=do-syd1.008883.xyz&path=/freev2.net?ed=2048fp=random&security=tls#@v2ray_configs_pool
 vless://cd77cddf-9fff-4bbb-a0b8-c33213320e82@188.245.119.21:26120?allowInsecure=0&type=ws#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.181:8080#@v2ray_configs_pool
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#@v2ray_configs_pool
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.178:8080#@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsImFkZCI6IjQzLjE1Ni4yMjQuNjAiLCJwb3J0IjoiNTA1MTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDVjODMyNTYtY2M3Yi00MzU2LWE2ZGUtYTJlNGQ0ZTZjMTg0IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#@v2ray_configs_pool
 trojan://253bc477d4e43c209f2d427272968280@153.121.73.102:3294?allowInsecure=0&sni=www.nintendogames.net#@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsImFkZCI6ImthbXBvbmcub3JnIiwicG9ydCI6IjQ0MyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMSIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImthbXBvbmcub3JnIiwicGF0aCI6Imxpbmt2d3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJrYW1wb25nLm9yZyIsImFscG4iOiIiLCJmcCI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&encryption=none&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=www.steampowered.com&sid=85#@v2ray_configs_pool
