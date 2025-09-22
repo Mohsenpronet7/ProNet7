@@ -537,7 +537,7 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#🇬🇧-hamedp71-3
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#🇻🇳-hamedp71-30
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#🇭🇰-hamedp71-4
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638936661878829611.ahvaz-drc-tusacae.info:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.89:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsImFkZCI6IjE2NS4xNDAuMjE2LjE0MSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTdkNzJhOGQtMjZmMi00YjU0LWIzNjYtMGM0M2UwYmNiYTdkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 vless://de332b56-8cae-4cf7-92a1-19e9f5647ce0@141.227.172.235:57249?encryption=none&security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun#@v2ray_configs_pool
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?encryption=none&security=tls&sni=pqh28v1.hiddendom.shop&alpn=h2&type=grpc#@v2ray_configs_pool
@@ -561,6 +561,7 @@ trojan://3ZFDxASRw0XIcKYFlp4RSCeSwA8ap7lEAzZB7uNnO38yDYOzDe3p23CxF0OlTx6YSK3j3@t
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vless://c14e2d3c-2b46-41da-99c4-380d525f57de@213.165.55.47:443?security=reality&encryption=none&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=tgju.org&sid=e54b5ad736ae4c38#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.105:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@v2ray_configs_pool
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638936661878829611.ahvaz-drc-tusacae.info:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vless://75de6b1d-5180-41de-b2e8-471c99c3c780@141.227.166.177:37421?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930176646994428.gorgan-drc-tusabt.info:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.69:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#@v2ray_configs_pool
