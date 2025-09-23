@@ -686,7 +686,7 @@ vless://2a5b16fc-692f-4713-a5cf-23d6d3cd1199@108.61.190.141:2053?type=grpc&encry
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprc2c5MjlCV2YxSzIyMGRH@azjnac1.uksouth.cloudapp.azure.com:443#@v2ray_configs_pool
 vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh38v4.avoipok.shop:8880?mode=multi&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638937544595891094.madrid-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.89:8880?type=grpc&encryption=none#@v2ray_configs_pool
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638936661878829611.ahvaz-drc-tusacae.info:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoiQHYycmF5X2NvbmZpZ3NfcG9vbCIsImFkZCI6IjE2NS4xNDAuMjE2LjE0MSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTdkNzJhOGQtMjZmMi00YjU0LWIzNjYtMGM0M2UwYmNiYTdkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 vless://de332b56-8cae-4cf7-92a1-19e9f5647ce0@141.227.172.235:57249?encryption=none&security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun#@v2ray_configs_pool
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?encryption=none&security=tls&sni=pqh28v1.hiddendom.shop&alpn=h2&type=grpc#@v2ray_configs_pool
