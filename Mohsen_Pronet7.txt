@@ -718,6 +718,7 @@ vless://7a726307-4a2d-4b9b-abca-cf1e5dabd7b7@snipaste2.speedip.eu.org:2083?encry
 vless://7a726307-4a2d-4b9b-abca-cf1e5dabd7b7@snipaste5.speedip.eu.org:443?encryption=none&security=tls&sni=vless-10.webn.cc&type=ws&host=vless-10.webn.cc&path=%2Fsnippets%3Fip%3Dproxyip%3Aport%28443%29%26nat64%3D6to4#hamedp71-318
 vless://7a726307-4a2d-4b9b-abca-cf1e5dabd7b7@snipaste3.speedip.eu.org:2087?encryption=none&security=tls&sni=vless-10.webn.cc&type=ws&host=vless-10.webn.cc&path=%2Fsnippets%3Fip%3Dproxyip%3Aport%28443%29%26nat64%3D6to4#hamedp71-319
 vless://7a726307-4a2d-4b9b-abca-cf1e5dabd7b7@104.26.12.31:443?encryption=none&security=tls&sni=vless-10.webn.cc&type=ws&host=vless-10.webn.cc&path=%2Fsnippets%3Fip%3Dproxyip%3Aport%28443%29%26nat64%3D6to4#hamedp71-320
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638938755008244100.vienna-drc-tusacaf.info:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
 vless://bb5be5c2-bf5e-4050-8193-eb18f1faa42e@51.210.77.32:24292?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowTmVONXRhN0ZMYTVCOURMeXRVMHVt@promo1o.bystrivpn.ru:443#@v2ray_configs_pool
 ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ@195.58.49.100:1901#@v2ray_configs_pool
