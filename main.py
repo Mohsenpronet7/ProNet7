@@ -130,10 +130,11 @@ html_content = f"""
         <h3>📱 اسکن QR برای استفاده در V2RayNG / Hiddify</h3>
         <img src="{qr_image_path}" alt="QR Code">
     </div>
-    <pre>{chr(10).join(unique_configs[:50])}</pre>
+    <pre>{chr(10).join(unique_configs[:250])}</pre>
 </body>
 </html>
 """
 
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+
