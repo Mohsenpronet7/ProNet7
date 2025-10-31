@@ -677,10 +677,11 @@ vless://da6f3c91-ddf9-41eb-8a22-87d9f1301a3d@ca.parkcontrolzip.ir:2095?security=
 vless://7c8cf438-8d5a-4ce9-bc1c-88345a545f2f@185.68.244.86:42545?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40FreakConfig
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@uk.vpnsparta.pro:57456#BESTIIVPNBOT%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D8%B3%D8%B1%D9%88%D8%B1%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C
 vmess://eyJhZGQiOiI1Ny4xMjguMTg5LjI1MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoia2FwZWxsZW5nLmNvbSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0IjoiNDQzIiwicHMiOiJDaGFubmVsIGlkOiBAcHJveHlfa2FmZWXwn4es8J+HpyIsInNjeSI6ImF1dG8iLCJzbmkiOiJrYXBlbGxlbmcuY29tIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
+vless://87eff1bd-d55f-4df2-a5ad-863368a16cb7@144.31.27.149:443?security=reality&encryption=none&pbk=3O4PQuef1TumC4jS3rJnp9pmAB2UUxamRbw3eTpCalQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=54f3a78595471fe7#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.244:8880?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#@v2ray_configs_pool
 vless://e188a23f-f17a-4a61-8a48-aa83b3653f5d@104.26.6.89:2053?path=%2Fcontainers%2Fde&amp;security=tls&amp;encryption=none&amp;host=om4.omidsuccess.uk&amp;fp=chrome&amp;type=ws&amp;sni=om4.omidsuccess.uk#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.232.247.186:8880?mode=gun&security=&encryption=none&type=grpc#@v2ray_configs_pool
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.15:8880?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#@v2ray_configs_pool
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.15:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@v2ray_configs_pool
 vless://93d083df-687f-47f6-b72f-4d66dd555708@147.93.184.37:443?encryption=none&amp;security=reality&amp;sni=www.google.com&amp;fp=safari&amp;pbk=TmgrGZmL1ApnHm5QADS3fqwPK68UT5UPo0sKI7Cnyx0&amp;sid=6b6a755c2fe57f9f&amp;type=grpc&amp;serviceName=ae025fe0c98481d87a29ea55#@v2ray_configs_pool
 vless://7a0b6c85-ce1f-4de0-acd4-9e368d74f415@85.239.149.76:443?type=tcp&amp;security=reality&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=st.ozone.ru&amp;fp=chrome&amp;pbk=4efItvVkLuH2AdiaNzDIzmyHT3yE4uWcql1L3xEPXko&amp;sid=f0e1d8d8d83346e8&amp;spx=%2F#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638974363192992700.budapest-blkaft-aaav.info:8880?encryption=none&amp;security=&amp;sni=&amp;type=grpc&amp;alpn=&amp;host=&amp;path=#@v2ray_configs_pool
@@ -700,8 +701,8 @@ vmess://eyJhZGQiOiIxMDQuMjUwLjIzOS4zMiIsImFpZCI6MCwiZnAiOiJjaHJvbWUiLCJob3N0Ijoi
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.191:8080#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184:8080#@v2ray_configs_pool
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.91.102.40:5003#@v2ray_configs_pool
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.97:8880?mode=gun&security=&encryption=none&type=grpc#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.15:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray_configs_pool
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.97:8880?mode=gun&security=&encryption=none&type=grpc#@v2ray_configs_pool
 trojan://telegram-id-privatevpns@13.36.74.68:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#@v2ray_configs_pool
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.72.188.109:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.93.173.60:990#@v2ray_configs_pool
