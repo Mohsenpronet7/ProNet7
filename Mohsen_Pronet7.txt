@@ -1511,7 +1511,7 @@ ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFN
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#%E4%B8%AD%E5%9B%BD%20-%20%E9%A6%99%E6%B8%AF%20-%20Ultahost,%20Inc.%20-%208
 trojan://19f8e29a-3f0b-448c-92e8-ae035ea5f9ba@45.159.251.8:81?security=tls&type=ws&sni=joss.dus.biz.id&path=/Free-VPN-CF-Geo-Project/45.159.251.8=81&host=joss.dus.biz.id#🆔@v2ray_configs_pool
 vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?path=%2F57ba2ab1&security=tls&encryption=none&host=ovhwuxian.pai50288.uk&fp=chrome&type=ws&sni=ovhwuxian.pai50288.uk#🆔@v2ray_configs_pool
-vless://28e8d9d8-3442-46e8-8697-0280c2917242@ezalor.fonixapp.org:46490?security=reality&amp;encryption=none&amp;pbk=mNnK0d5tF-8FazWFmDLsp9YPAf1PL2k9S1bvKV8p_Uk&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=stackoverflow.com&amp;sid=fa41#🆔@v2ray_configs_pool
+vless://28e8d9d8-3442-46e8-8697-0280c2917242@ezalor.fonixapp.org:46490?security=reality&encryption=none&pbk=mNnK0d5tF-8FazWFmDLsp9YPAf1PL2k9S1bvKV8p_Uk&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=stackoverflow.com&sid=fa41#🆔@v2ray_configs_pool
 trojan://63b8ce6d-9a30-4122-a00f-fd47f020dc27@89.28.236.243:443?security=tls&type=ws&sni=joss.dus.biz.id&path=/Free-VPN-CF-Geo-Project/89.28.236.243=443&host=joss.dus.biz.id#🆔@v2ray_configs_pool
 vless://c3302b07-7717-465a-bf5e-83ac9e9b133d@38.190.150.75:4655?security=none&encryption=none&headerType=none&type=tcp#🆔@v2ray_configs_pool
 vless://0f4f3a75-ae36-4992-8cb5-6638f45afcb2@216.133.148.215:36987?encryption=none&security=none&type=tcp&headerType=none#🆔@v2ray_configs_pool
@@ -2610,7 +2610,6 @@ vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?security=none&typ
 vless://cc67ca7f-064e-4117-ac31-a66d5728a11c@45.144.52.23:443?path=%2Fgetupdates&security=tls&encryption=none&type=ws&sni=fl-3-direct.djarbnet.ru#🆔@v2ray_configs_pool
 vless://e188a23f-f17a-4a61-8a48-aa83b3653f5d@104.26.6.89:2053?path=%2Fcontainers%2Fde&security=tls&encryption=none&fp=chrome&type=ws&sni=om4.omidsuccess.uk#🆔@v2ray_configs_pool
 vless://0eaab689-82c5-4678-8ac6-d58ef4357dbe@tuskar.fonixapp.org:44393?security=reality&encryption=none&pbk=QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=lowes.com&sid=05#🆔@v2ray_configs_pool
-vless://28e8d9d8-3442-46e8-8697-0280c2917242@ezalor.fonixapp.org:46490?security=reality&encryption=none&pbk=mNnK0d5tF-8FazWFmDLsp9YPAf1PL2k9S1bvKV8p_Uk&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=stackoverflow.com&sid=fa41#🆔@v2ray_configs_pool
 vless://247f264b-54dc-4e18-b55f-4769a4a80980@silverzebra.fonixapp.org:28392?security=reality&encryption=none&pbk=Pq_a-rDvNROjMaNtA7v2tSSsfPR8KspHwKfu2tEv_F8&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yelp.com&sid=cf34f84f37#🆔@v2ray_configs_pool
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?security=tls&alpn=h3&encryption=none&fp=random&type=ws&sni=vless.hubp.de#🆔@v2ray_configs_pool
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#🆔@v2ray_configs_pool
