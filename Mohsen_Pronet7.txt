@@ -1519,6 +1519,7 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#github.com/Ruk1ng001_3134323237626462
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#%E8%B6%8A%E5%8D%97%20-%20H%E1%BA%A3i%20D%C6%B0%C6%A1ng%20-%20FASTLY%20-%202
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#%E4%B8%AD%E5%9B%BD%20-%20%E9%A6%99%E6%B8%AF%20-%20Ultahost,%20Inc.%20-%208
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBSEZuOFJQRjJHU3hYNEJYOWk5YTE2@62.133.60.43:36456#🆔@v2ray_configs_pool
 vless://f64bdc57-0f54-4705-bf75-cfd646d98c06@91.103.253.162:8443?encryption=none&security=tls&sni=snippets.mnmnm.netlib.re&fp=random&allowInsecure=1&type=ws&host=snippets.mnmnm.netlib.re&path=%2F%3Fed%3D2560#🆔@v2ray_configs_pool
 vless://6202ab99-7f57-0a6a-180a-e980b41f5789@dir.lightnright.com:8883?security=tls&alpn=http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=jnir-x.pichondan.com#🆔@v2ray_configs_pool
 vless://a3e72e43-3dc0-4988-a7d2-185508031b91@65.109.208.46:443?security=tls&amp;encryption=none&amp;headerType=none&amp;type=tcp&amp;sni=active.app-browser.org#🆔@v2ray_configs_pool
@@ -1541,7 +1542,6 @@ trojan://14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2@213.159.208.88:2053?security=tls&t
 trojan://1b57001bd214304027025a740b6cf1ac@202.181.103.246:2173?security=tls&sni=www.nintendogames.net#🆔@v2ray_configs_pool
 vmess://eyJhZGQiOiIxMDcuMTcyLjgyLjQxIiwiYWlkIjowLCJob3N0IjoiIiwiaWQiOiI0ZjM0ZjI0Mi1iNWE3LTQ4YzEtYzI1OC1mMDE5YmUzYmY5YzciLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6MTE4MTQsInBzIjoi8J+GlEB2MnJheV9jb25maWdzX3Bvb2wiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiJ9
 trojan://BxceQaOe@116.49.237.130:2173?allowInsecure=0#🆔@v2ray_configs_pool
-trojan://6b5b50ff-7798-40dc-9888-b4dd581e5435@51.89.128.93:44004?security=tls&type=ws&sni=joss.dus.biz.id&path=/Free-VPN-CF-Geo-Project/51.89.128.93=44004&host=joss.dus.biz.id#🆔@v2ray_configs_pool
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.71.211.9:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🆔@v2ray_configs_pool
 vless://9cbdc595-1d8d-4443-af07-99149153d025@172.64.150.28:443?security=tls&sni=2ca703f23b3947ceb737.eric-kanc.info&type=ws&host=2ca703f23b3947ceb737.eric-kanc.info&path=/abcdews&fp=chrome#🆔@v2ray_configs_pool
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.67.150.88:443?security=tls&sni=ppAL03.KaMARaH-elYNoR.woRkeRs.DEV&type=ws&host=pPAl03.KAmaraH-Elynor.WOrKeRS.Dev&path=%2Ft8AYpP1aoYUW5kYS%3Fed%3D2560&fp=randomized&alpn=h2,http/1.1#🆔@v2ray_configs_pool
