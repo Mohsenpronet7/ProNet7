@@ -1656,6 +1656,9 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#github.com/Ruk1ng001_3134323237626462
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#%E8%B6%8A%E5%8D%97%20-%20H%E1%BA%A3i%20D%C6%B0%C6%A1ng%20-%20FASTLY%20-%202
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#%E4%B8%AD%E5%9B%BD%20-%20%E9%A6%99%E6%B8%AF%20-%20Ultahost,%20Inc.%20-%208
+trojan://telegram-id-privatevpns@13.39.172.220:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🆔@v2ray_configs_pool
+trojan://telegram-id-privatevpns@18.192.40.130:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🆔@v2ray_configs_pool
+vless://269134a7-6f44-4f03-8fb7-560875e19f77@91.107.154.115:8443?security=none&encryption=none&headerType=none&type=tcp#🆔@v2ray_configs_pool
 trojan://-4146XJHYAzJ4K8Ov6_LBQ@lv.podpiska.vip:11000?path=%2Ftw&amp;security=tls&amp;type=ws&amp;sni=noproblemvpn.ru#🆔@v2ray_configs_pool
 trojan://-4146XJHYAzJ4K8Ov6_LBQ@lv.podpiska.vip:11000?path=/tw&security=tls&type=ws&sni=noproblemvpn.ru#🆔@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoi8J+GlEB2MnJheV9jb25maWdzX3Bvb2wiLCJhZGQiOiIxOC4xNDMuMjQ4LjE1NyIsInBvcnQiOiI1Mzc4NCIsImlkIjoiM2E0ODBhN2QtYTRiMy00NmUxLWQ0YzQtMDQyNTZiNzdmMDQ1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiaHR0cCIsImhvc3QiOiIxOC4xNDMuMjQ4LjE1NyIsInBhdGgiOiIvIiwidGxzIjoiIiwic25pIjoiIiwiYWxwbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
@@ -1667,7 +1670,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.200:8880?security=&amp;e
 vless://Parsashonam-Bot-36@104.17.147.22:8880?path=/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056&security=none&encryption=none&host=Fi.Parsashonam.CfD.&type=ws#🆔@v2ray_configs_pool
 vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=doc.mail.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=%2Fwebsocketpl#🆔@v2ray_configs_pool
 vmess://eyJ2IjoiMiIsInBzIjoi8J+GlEB2MnJheV9jb25maWdzX3Bvb2wiLCJhZGQiOiI2Ni4yNTMuNy4xNzgiLCJwb3J0IjoiMjA1MjEiLCJpZCI6ImQyNGM0OTliLTNiMjUtNDQxZS05YzZlLWIxMjQyMWE5MTA0MSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6IiIsInNuaSI6IiIsInRlc3RfbmFtZSI6IjM1Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
-vless://Warpi-Free-Vpn-In-GooglePlay@vp5.myphotomoments.ir:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#🆔@v2ray_configs_pool
+vless://Warpi-Free-Vpn-In-GooglePlay@vp5.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#🆔@v2ray_configs_pool
 vless://c7158ca6-7c6c-4701-bf7d-df0f98a9ca33@speedtest.org:443?path=%2Fharman&amp;security=tls&amp;encryption=none&amp;host=pqjeb.noah-shabane.com&amp;fp=chrome&amp;type=ws&amp;sni=pqjeb.noah-shabane.com#🆔@v2ray_configs_pool
 trojan://2274c52572e721086f8bd8f88984643c@160.16.57.238:4211?allowInsecure=1&sni=www.nintendogames.net#🆔@v2ray_configs_pool
 trojan://2274c52572e721086f8bd8f88984643c@160.16.236.32:5552?allowInsecure=0&sni=www.nintendogames.net#🆔@v2ray_configs_pool
@@ -1675,9 +1678,6 @@ trojan://BxceQaOe@160.16.227.93:1924?allowInsecure=1&sni=t.me%2Fripaojiedian#�
 trojan://2274c52572e721086f8bd8f88984643c@58.152.110.216:443?allowInsecure=0&sni=www.nintendogames.net#🆔@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.176:8880?encryption=none&security=none&type=grpc#🆔@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.144:8880?encryption=none&security=none&type=grpc#🆔@v2ray_configs_pool
-vless://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443?security=reality&amp;encryption=none&amp;pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=www.microsoft.com&amp;sid=3471fa2412678660#🆔@v2ray_configs_pool
-vless://447f616b-0250-4b95-8385-55549cfdc4dd@vps4.myphotomoments.ir:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#🆔@v2ray_configs_pool
-vless://733f49e3-e9ef-4d6b-8e9b-e9a5188318d3@nl8.node.ibst.me:3502?security=none&encryption=none&headerType=none&type=tcp#🆔@v2ray_configs_pool
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.158:8080#%F0%9F%86%94@v2ray_configs_pool
 hy2://Yet-Another-Public-Config-1@206.71.158.37:36400?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#%F0%9F%94%B7%F0%9F%86%94@v2ray_configs_pool%F0%9F%94%B7
 hy2://2f4ba32c-6abc-4e1a-8b49-13ba5ee515cd@sfjxjp.sufujia.top:57300?insecure=1&sni=sfjxjp.sufujia.top#%F0%9F%94%B7%F0%9F%86%94@v2ray_configs_pool%F0%9F%94%B7
@@ -2078,7 +2078,6 @@ vmess://eyJhZGQiOiIxODguMTE0Ljk2LjMiLCJhaWQiOjAsImhvc3QiOiJvYmRpaS5jZmQiLCJpZCI6
 vmess://eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjE3Mi42NC4xOTguMjQ5IiwgInBvcnQiOiAiMjA5NiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiNGJiYzkyZGItNWY4Zi00MmZkLTg3ZmYtNDQwZTkwNDBkMjNjIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogInd3dy5kb25ndGFpd2FuZy5jb20iLCAiaG9zdCI6ICJ0b3RhbC1yYWNpYWwtZXVnZW5lLWluZGV4LnRyeWNsb3VkZmxhcmUuY29tIiwgInRscyI6ICJ0bHMifQ==`
 vless://5adfc317-2483-45ad-bd84-d2779540ffa3@172.66.156.81:80?encryption=none&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy&security=none#🆔@v2ray_configs_pool
 vless://adf493de-f3fd-4363-9f32-d10314003fe7@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6%3Fed%3D2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🆔@v2ray_configs_pool
-vless://Warpi-Free-Vpn-In-GooglePlay@vp5.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#🆔@v2ray_configs_pool
 vless://1adfd219-1ebd-4a5d-a63d-d69a215f606e@193.151.148.124:2070?security=none&type=tcp&host=speedtest.net&headerType=http#🆔@v2ray_configs_pool
 trojan://6e3acf13-788a-4de7-90f3-2887871bb42d@[2a01:4f8:c013:637f::1]:40346?security=none&encryption=none&headerType=none&type=tcp#🆔@v2ray_configs_pool
 trojan://34a83286-ba4e-4f0a-ac08-77a95469eeaf@172.66.47.155:443?path=%2FTel-%40V2ray_Alpha%2F%3Fed%3D2048&security=tls&encryption=none&host=pardazesh18.pages.dev&fp=chrome&type=ws&sni=pardazesh18.pages.dev#🆔@v2ray_configs_pool
