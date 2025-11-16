@@ -1637,6 +1637,7 @@ hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander
 hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#github.com/Ruk1ng001_3134323237626462
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.18:38388#%E8%B6%8A%E5%8D%97%20-%20H%E1%BA%A3i%20D%C6%B0%C6%A1ng%20-%20FASTLY%20-%202
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#%E4%B8%AD%E5%9B%BD%20-%20%E9%A6%99%E6%B8%AF%20-%20Ultahost,%20Inc.%20-%208
+vmess://eyJ2IjoiMiIsInBzIjoi8J+GlEB2MnJheV9jb25maWdzX3Bvb2wiLCJhZGQiOiJkZC5vcGVuYWNjZXNzbm9kZS5jb20iLCJwb3J0IjoiNTIyOCIsInR5cGUiOiJub25lIiwiaWQiOiI2MjAyYWI5OS03ZjU3LTBhNmEtMTgwYS1lOTgwYjQxZjU3ODkiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiZGQub3BlbmFjY2Vzc25vZGUuY29tIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@betty.ns.cloudflare.com:443?encryption=none&security=tls&sni=638988506154325684.civic-amshw.info&type=ws&host=638988506154325684.civic-amshw.info&path=/cahttingws#🆔@v2ray_configs_pool
 trojan://LxJCPOP40a@206.206.77.237:51469?mode=gun&security=reality&pbk=nlxKGGnvTUULdJlG1vfRbiG9IFrbFYC9VMnMWNH_A3s&fp=chrome&type=grpc&sni=cloudflare.com&sid=793dfc59cf7edf#🆔@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.79:8880?mode=gun&security=&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🆔@v2ray_configs_pool
@@ -1654,12 +1655,11 @@ vless://29196011-bbdf-42e0-80b2-9c30e62b33e2@brenna.ns.cloudflare.com:443?encryp
 vless://2e6037b9-87b2-4442-91f9-71c41a586a55@51.79.103.117:443?type=ws&amp;encryption=none&amp;security=&amp;host=51.79.103.117&amp;path=/linkws?ed=2560&amp;sni=#🆔@v2ray_configs_pool
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443?encryption=none&amp;security=tls&amp;sni=638987972960682357.prius-amsht.info&amp;type=ws&amp;host=638987972960682357.prius-amsht.info&amp;path=/cahttingws#🆔@v2ray_configs_pool
 vless://c7158ca6-7c6c-4701-bf7d-df0f98a9ca33@speedtest.org:443?security=tls&amp;sni=nifbt.evelyn-galian.info&amp;path=/harman&amp;type=ws&amp;host=nifbt.evelyn-galian.info#🆔@v2ray_configs_pool
-vless://Warpi-Free-Vpn-In-GooglePlay@vp4.myphotomoments.ir:443?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#🆔@v2ray_configs_pool
+vless://Warpi-Free-Vpn-In-GooglePlay@vp4.myphotomoments.ir:443?type=tcp&amp;encryption=none&amp;security=none#🆔@v2ray_configs_pool
 trojan://2274c52572e721086f8bd8f88984643c@160.16.63.16:2890?allowInsecure=0&sni=www.nintendogames.net#🆔@v2ray_configs_pool
 trojan://BxceQaOe@116.49.237.130:3579?sni=t.me%252Fripaojiedian#🆔@v2ray_configs_pool
 trojan://BxceQaOe@35.77.94.201:8112?allowInsecure=1&sni=t.me%2Fripaojiedian#🆔@v2ray_configs_pool
 trojan://BxceQaOe@219.79.165.55:443?allowInsecure=1&sni=t.me%2Fripaojiedian#🆔@v2ray_configs_pool
-trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#🆔@v2ray_configs_pool
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@dir.cybsecguru.com:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@206.71.158.41:35000?sni=jnir.pichondan.com&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzRFx1REQzN1x1RDgzQ1x1REQ5NEB2MnJheV9jb25maWdzX3Bvb2xcdUQ4M0RcdUREMzciLA0KICAiYWRkIjogIjguMjE4LjE3NS42NCIsDQogICJwb3J0IjogIjk3NTQiLA0KICAiaWQiOiAiNWI5NTc1YzMtYzQwNC00YzkzLTk4ZjgtNjM1ODFlODhmZmRmIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIi0tLSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
@@ -3062,6 +3062,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJRQDE1MS4yNDIuMjU
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9qQDE1MS4yNDIuMjUxLjE1Mzo4MDgw#🆔@v2ray_configs_pool
 vmess://eyJhZGQiOiIxNDYuNTYuMTEyLjExMCIsInBvcnQiOiI4ODg4IiwiaWQiOiJlN2MzMDJmMy05MGQ2LTQyZGQtOWQ3ZC05NGEzNjgzYTM3MDciLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInYiOiIyIiwicHMiOiLwn4aUQHYycmF5X2NvbmZpZ3NfcG9vbCIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIiwic25pIjoiIiwidHlwZSI6IiIsInNlcnZlclBvcnQiOjAsIm5hdGlvbiI6IiJ9
 trojan://2274c52572e721086f8bd8f88984643c@58.152.110.216:443?security=tls&sni=www.nintendogames.net#🆔@v2ray_configs_pool
+trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#🆔@v2ray_configs_pool
 trojan://BxceQaOe@18.163.122.76:2173?allowInsecure=1&sni=t.me%2Fripaojiedian#🆔@v2ray_configs_pool
 vless://738c5a04-817a-4f50-b327-893595010155@all32-vip.f-sub.com:2434?security=reality&encryption=none&pbk=yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA&headerType=none&fp=chrome&type=tcp&sni=chess.com#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40Fr33C0nfig%20%5B10%5D
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.190.38:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40Fr33C0nfig%20%5B11%5D
